@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BackEnd">
+      <UniqueIdentifier>{4a80ca36-947e-497c-bf60-72a8c86c1221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{731c65bf-894c-426f-94f9-ba9dd15ab5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{c88afff2-ff89-4593-a2e9-887008920950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D11">
+      <UniqueIdentifier>{d0836907-58a9-468b-ab74-253b6090e323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{9785639e-58a5-4517-ab68-76fcccddd71b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>BackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Visual.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphics.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLLMain.h">
+      <Filter>BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>BackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdfx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\cx_fnv1.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\cx_pcg32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\cx_strenc.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Rubik.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Visual.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphics.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeJMP.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
