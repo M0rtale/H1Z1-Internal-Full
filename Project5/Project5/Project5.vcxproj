@@ -123,7 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="CGame.cpp" />
     <ClCompile Include="CGraphics.cpp" />
     <ClCompile Include="DLLMain.cpp" />
@@ -142,7 +141,6 @@
     <ClCompile Include="Visual.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
     <ClInclude Include="CGame.h" />
     <ClInclude Include="CGraphics.h" />
     <ClInclude Include="DLLMain.h" />
