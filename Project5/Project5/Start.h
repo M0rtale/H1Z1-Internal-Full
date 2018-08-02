@@ -11,7 +11,7 @@ namespace Start
 	extern ID3D11RenderTargetView* pRenderTargetView;
 
 	//Functions
-	void Initialise();
+	DWORD Initialise(LPVOID in);
 	void Release();
 	void GetResolution(UINT horizontal, UINT vertical);
 }
