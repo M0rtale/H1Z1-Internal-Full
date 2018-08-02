@@ -5,7 +5,7 @@ ID3D11DeviceContext *Start::pContext = NULL;
 IDXGISwapChain* Start::pSwapChain = NULL;
 ID3D11RenderTargetView* Start::pRenderTargetView = NULL;
 
-void Start::Initialise()
+DWORD Start::Initialise(LPVOID in)
 {
 	AllocConsole();
 	freopen("CON", "w", stdout);
@@ -78,6 +78,7 @@ void Start::Initialise()
 	Helpers::HookFunction(reinterpret_cast<PVOID*>(&Hooks::oPresent), Hooks::hkD3D11Present);
 
 	Hooks::oriWndProc = SetWindowLongPtr(FindWindow(XorStr("H1Z1 PlayClient (Live)"), NULL), GWLP_WNDPROC, (LONG_PTR)Hooks::WndProc);
+	return 0;
 }
 
 void Start::Release()
