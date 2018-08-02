@@ -16,7 +16,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 		sprintf_s(Buffer, "Ready! Press Ins to open Menu!");
 		MessageBoxA(0, Buffer, "Hey!", MB_SYSTEMMODAL);
 
-		CreateThread(NULL, NULL, reinterpret_cast<LPTHREAD_START_ROUTINE>(Start::Initialise), NULL, NULL, NULL);
+		CreateThread(NULL, NULL, Start::Initialise, NULL, NULL, NULL);
 		break;
 
 	case DLL_PROCESS_DETACH:
