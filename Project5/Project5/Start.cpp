@@ -46,7 +46,7 @@ DWORD Start::Initialise(LPVOID in)
 	)))
 	{
 		Helpers::LogError(XorStr("D3D11CreateDevice"));
-		return;
+		return 0;
 	}
 
 	// GET VTABLE POINTERS
